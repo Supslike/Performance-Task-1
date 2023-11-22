@@ -1,0 +1,296 @@
+/* Importing a Google Font for styling */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Global reset for margin, padding, and scroll behavior */
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    scroll-behavior: smooth;
+}
+
+/* Styling for the body, including background color */
+body {
+    background-color: #09333F;
+}
+
+/* Styling for the header, including flex layout and sticky positioning */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+/* Styling for the logo container */
+.logo-content {
+    display: flex;
+    align-items: center;
+    margin-left: 1in;
+}
+
+/* Styling for the logo image */
+.logo-content img {
+    width: 50px;
+    height: auto;
+    margin-right: 0.2in;
+}
+
+/* Styling for the logo text */
+.logo-content h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #D4EDEB;
+}
+
+/* Styling for the navigation menu */
+nav {
+    height: 10vh;
+    margin-right: 1in;
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the unordered list in the navigation menu */
+ul {
+    display: flex;
+    gap: 1in;
+}
+
+/* Styling for list items */
+li {
+    list-style: none;
+}
+
+/* Styling for anchor links */
+a:link, a:visited {
+    text-decoration: none;
+    color: #D4EDEB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+/* Styling for the landing page section */
+.landing-page {
+    height: 100vh;
+    background-image: url("static/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Styling for the front page text display */
+.front-page .text-wrap {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #D4EDEB;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 100px;
+    margin-left: 1in;
+    margin-top: 1in;
+}
+
+/* Styling for content pages */
+.content-page {
+    height: 100vh;
+}
+
+/* Styling for the bubble wrap effect in the introduction section */
+.bubble-wrap {
+    margin-top: 2in;
+    height: 100vh;
+    background-color: #153E49;
+    width: 75%;
+    height: 65%;
+    border-radius: 20px;
+    padding: 3%;
+}
+
+/* Styling for the introduction section */
+#introduction {
+    background: linear-gradient(to bottom, rgba(9, 51, 62, 1), rgba(0, 0, 0, 0) 90%), #628FBE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding-bottom: 30vh;
+}
+
+/* Styling for horizontal lines */
+hr {
+    opacity: 0.5;
+}
+
+/* Styling for the information container in the introduction section */
+#introduction .information {
+    height: 50vh;
+}
+
+/* Styling for the content container in the introduction section */
+.content-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Styling for the image wrap in the introduction section */
+#introduction .img-wrap {
+    max-width: 25%;
+    min-width: 25%;
+    height: 100%;
+}
+
+/* Styling for the image in the introduction section */
+#introduction .img-wrap img {
+    width: 80%;
+    height: auto;
+    margin-left: 1in;
+}
+
+/* Styling for the information in the introduction section */
+#introduction .information {
+    max-width: 75%;
+    min-width: 75%;
+    padding-bottom: 10%;
+}
+
+/* Styling for headings and paragraphs in the introduction section */
+#introduction .information h2, #introduction .information p {
+    margin-left: 1in;
+    width: 80%;
+}
+
+/* Styling for the heading in the introduction section */
+#introduction .information h2 {
+    margin-top: 1in;
+    margin-bottom: 0.2in;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #D4EDEB;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+/* Styling for paragraphs in the introduction section */
+#introduction .information p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a0bebc;
+    text-indent: 1in;
+    font-size: 16px;
+}
+
+/* Styling for the purpose section background image */
+#purpose {
+    background-image: url("static/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Styling for the main content container in the purpose section */
+#purpose .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Styling for the text wrap in the purpose section */
+#purpose .text-wrap {
+    width: 95%;
+    background-color: #F5E8D8;
+    padding: 3% 5%;
+    height: 30vh;
+}
+
+/* Styling for headings in the purpose section */
+#purpose .text-wrap h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0.2in;
+}
+
+/* Styling for paragraphs in the purpose section */
+#purpose .text-wrap p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 1in;
+}
+
+/* Styling for the countries section background color */
+#countries {
+    background-color: #628FBE;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+/* Styling for image and text wrap in the countries section */
+#countries .img-wrap, #countries .text-wrap {
+    max-width: 50%;
+}
+
+/* Styling for the image wrap in the countries section */
+#countries .img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5E8D8;
+    padding: 2%;
+}
+
+/* Styling for the image in the countries section */
+#countries .img-wrap img {
+    width: 300px;
+    height: auto;
+}
+
+/* Bordered Elements */
+
+/* Styling for headings and paragraphs in the countries section*/
+#countries .text-wrap h2, #countries .text-wrap p {
+    background-color: #F5E8D8;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+/* Styling for the heading in the countries section */
+#countries .text-wrap h2 {
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/* Styling for anchor links in the countries section */
+#countries a {
+    display: flex;
+    font-weight: bold;
+    padding: 5%;
+    text-indent: 0.2in; 
+    color: rgb(84, 84, 84);
+    transition: all 0.2s;
+}
+
+/* Styling for the button in the countries section */
+#countries .button-countries {
+    width: 25%;
+    background-color: #f5e8d890;
+    margin-top: 0.5in;
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+
+/* Hover effect for the button in the countries section */
+#countries .button-countries:hover {
+    background-color: #f5e8d8fe;
+    box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.223);
+}
+
+/* Hover effect for anchor links in the countries section */
+#countries a:hover {
+    color: black;
+}
